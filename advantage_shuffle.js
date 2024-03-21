@@ -7,7 +7,7 @@
  * @return {number[]}
  */
 var advantageCount = function(nums1, nums2) {
-    let ord = Uint16Array.from({length:nums2.length}, (_,i) => i), 
+    let ord = Uint16Array.from({length:nums2.length}, (_,i) => i),
         output = new Uint32Array(nums2.length),
         i = 0, j = nums2.length - 1
     ord.sort((a,b) => nums2[b] - nums2[a])
@@ -18,7 +18,7 @@ var advantageCount = function(nums1, nums2) {
         output[ix] = nums1[i] > nums2[ix] ? nums1[i++] : nums1[j--]
         // console.log(output)
     }
-    return output  
+    return output
 };
 
 console.log(advantageCount([2,7,11,15], [1,10,4,11]));
