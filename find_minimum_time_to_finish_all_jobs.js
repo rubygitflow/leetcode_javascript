@@ -8,9 +8,9 @@
  */
 var minimumTimeRequired = function(jobs, k) {
     let x = jobs, 
-      baskets = new Uint32Array(k),
-      basket_num = 0,
-      avg = Math.ceil(x.reduce((a, b) => a + b, 0) / k)
+        baskets = new Uint32Array(k),
+        basket_num = 0,
+        avg = Math.ceil(x.reduce((a, b) => a + b, 0) / k)
     x.sort((a,b)=>b-a);
     while (x.length > 0) {
         let i = 0;
