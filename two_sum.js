@@ -1,6 +1,7 @@
 // https://leetcode.com/problems/two-sum/description/
 // 1. Two Sum
 
+console.log('Two Sum')
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -29,6 +30,7 @@ console.log(twoSum([3,3], 6));
 console.log(twoSum([3,3], 5));
 // Output: []
 
+console.log('Two Sum II - Input Array Is Sorted')
 // ***************************
 // https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 // 167. Two Sum II - Input Array Is Sorted

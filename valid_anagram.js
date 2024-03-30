@@ -1,6 +1,7 @@
 // https://leetcode.com/problems/valid-anagram/description/
 // 242. Valid Anagram
 
+console.log('Valid Anagram')
 /**
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
  * @param {string} s
@@ -61,3 +62,31 @@ console.log(anagram('anagram', 'nagram'));
 // Output: false
 console.log(anagram('rat', 'car'));
 // Output: false
+
+
+console.log('Group Anagrams')
+// ***************************
+// https://leetcode.com/problems/group-anagrams/description/
+// 49. Group Anagrams
+
+/**
+ * @param {string[]} strs
+ * @return {string[][]}
+ */
+var groupAnagrams = function(strs) {
+    let myMap = new Map();
+    strs.forEach((ele)=>{
+        const eleSorted = ele.split('').sort().join('');
+        if(myMap.has(eleSorted)){
+            myMap.set(eleSorted , [ele, ...myMap.get(eleSorted)])
+        } else myMap.set(eleSorted , [ele])
+    })
+    return (Array.from(myMap.values()))
+};
+
+console.log(groupAnagrams(["eat","tea","tan","ate","nat","bat"]));
+// Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+console.log(groupAnagrams([""]));
+// Output: [[""]]
+console.log(groupAnagrams(["a"]));
+// Output: [["a"]]
