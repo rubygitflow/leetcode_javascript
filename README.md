@@ -9,6 +9,7 @@ Solving algorithmic problems on leetcode.com
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_anagram.js)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/advantage_shuffle.js)
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/running_sum.js)
+- [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) >>> [minimum_time_to_make_rope_colorful.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_time_to_make_rope_colorful.js)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) >>> [alert_using_same_key_card.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/alert_using_same_key_card.js)
 - [1701. Average Waiting Time](https://leetcode.com/problems/average-waiting-time/) >>> [average_vaiting_time.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/average_vaiting_time.js)
 - [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) >>> [maximum_binary_string_after_change.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_binary_string_after_change.js)
@@ -19,7 +20,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 
-**Tasks: 14(1)  >>> Files: 13**
+**Tasks: 15(1)  >>> Files: 14**
 
 ## Install
 ```shell
