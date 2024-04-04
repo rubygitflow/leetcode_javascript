@@ -62,7 +62,7 @@ console.log(criticalConnections(5, [[0,1],[1,2],[2,0],[1,3],[3,4],[4,1]]));
 console.log(criticalConnections(6, [[0,1],[1,2],[2,0],[1,3],[3,4],[4,5],[5,3]]));
 // Output: [[1,3]]
 // 2 donuts
-console.log(criticalConnections(6, [[0,1],[1,2],[2,0],      [3,4],[4,5],[5,3],[5,6]]));
+console.log(criticalConnections(7, [[0,1],[1,2],[2,0],      [3,4],[4,5],[5,3],[5,6]]));
 // Output: [[5,6]]
 // star
 console.log(criticalConnections(7, [[0,1],[0,2],[2,3],[0,4],[0,5],[5,6]]));
