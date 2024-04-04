@@ -16,6 +16,7 @@ Solving algorithmic problems on leetcode.com
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/running_sum.js)
 - [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) >>> [minimum_time_to_make_rope_colorful.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_time_to_make_rope_colorful.js)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) >>> [alert_using_same_key_card.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/alert_using_same_key_card.js)
+- [1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) >>> [number_of_students_unable_to_eat_lunch.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/number_of_students_unable_to_eat_lunch.js)
 - [1701. Average Waiting Time](https://leetcode.com/problems/average-waiting-time/) >>> [average_vaiting_time.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/average_vaiting_time.js)
 - [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) >>> [maximum_binary_string_after_change.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_binary_string_after_change.js)
 - [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) >>> [find_minimum_time_to_finish_all_jobs.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/find_minimum_time_to_finish_all_jobs.js)
@@ -25,7 +26,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 
-**Tasks: 20(1)  >>> Files: 19**
+**Tasks: 21(1)  >>> Files: 20**
 
 ## Install
 ```shell

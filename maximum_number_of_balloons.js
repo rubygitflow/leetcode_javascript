@@ -20,3 +20,5 @@ console.log(maxNumberOfBalloons("loonbalxballpoon"));
 // Output: 2
 console.log(maxNumberOfBalloons("leetcode"));
 // Output: 0
+console.log(maxNumberOfBalloons("regret"));
+// Output: 0
