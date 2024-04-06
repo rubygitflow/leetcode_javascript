@@ -14,6 +14,7 @@ Solving algorithmic problems on leetcode.com
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/critical_connections_in_a_network.js)
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_time_visiting_all_points.js)
 - [1450. Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) >>> [number_of_students_doing_homework_at_a_given_time.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/number_of_students_doing_homework_at_a_given_time.js)
+- [1451. Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/) >>> [rearrange_words_in_a_sentence.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/rearrange_words_in_a_sentence.js)
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/running_sum.js)
 - [1566. Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/) >>> [detect_pattern.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/detect_pattern.js)
 - [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) >>> [minimum_time_to_make_rope_colorful.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_time_to_make_rope_colorful.js)
@@ -29,7 +30,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 
-**Tasks: 24(1)  >>> Files: 23**
+**Tasks: 25(1)  >>> Files: 24**
 
 ## Install
 ```shell
