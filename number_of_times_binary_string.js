@@ -15,14 +15,6 @@ var numTimesAllBlue = function(flips) {
         output += 1;
     }
     return output;
-    // let count = 0, res = 0, end = 0;
-    // for (let f of flips) {
-    //     end = Math.max(end, f);
-    //     count += 1;
-    //     if (end !== count) continue;
-    //     res += 1;
-    // }
-    // return res;
 };
         
 console.log(numTimesAllBlue([3,2,4,1,5]));
