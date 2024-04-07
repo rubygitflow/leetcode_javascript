@@ -10,9 +10,8 @@ var numTimesAllBlue = function(flips) {
     for(let left=0; left<flips.length; left++){
         // we store only the right value of the passed range
         right = Math.max(right, flips[left]);
-        if (right !== left+1) continue;
         // True counter for the left-th step
-        output += 1;
+        if (right === left+1) output += 1;
     }
     return output;
 };
