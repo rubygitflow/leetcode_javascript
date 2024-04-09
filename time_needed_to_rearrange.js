@@ -7,7 +7,7 @@
  */
 var secondsToRemoveOccurrences = function(s) {
     let output = zeroes = 0;
-    for(let i=0; i< s.length; i++){
+    for(let i=0; i<s.length; i++){
         if(s.charAt(i) == '1'){
             if (zeroes > 0) output = Math.max(output+1, zeroes)
         } else zeroes++;
