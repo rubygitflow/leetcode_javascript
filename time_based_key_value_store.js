@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/time-based-key-value-store/
 // 981. Time Based Key-Value Store
-// Look at binary_search.py
+// Look at binary_search.js
 
 var TimeMap = function() {
     this.store = new Map();
