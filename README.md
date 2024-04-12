@@ -14,6 +14,7 @@ Solving algorithmic problems on leetcode.com
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/largest_time_for_given_digits.js)
 - [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) >>> [time_based_key_value_store.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_based_key_value_store.js)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_cost_for_tickets.js)
+- [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) >>> [last_stone_weight.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/last_stone_weight.js)
 - [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) >>> [corporate_flight_bookings.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/corporate_flight_bookings.js)
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_number_of_balloons.js)
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/critical_connections_in_a_network.js)
@@ -39,7 +40,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 
-**Tasks: 34(1)  >>> Files: 32**
+**Tasks: 35(1)  >>> Files: 33**
 
 ## Install
 ```shell
