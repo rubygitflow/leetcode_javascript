@@ -13,6 +13,7 @@ Solving algorithmic problems on leetcode.com
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/advantage_shuffle.js)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/largest_time_for_given_digits.js)
 - [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) >>> [time_based_key_value_store.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_based_key_value_store.js)
+- [982. Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) >>> [triples_with_bitwise.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/triples_with_bitwise.js)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_cost_for_tickets.js)
 - [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) >>> [last_stone_weight.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/last_stone_weight.js)
 - [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) >>> [last_stone_weight.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/last_stone_weight.js)
@@ -41,7 +42,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 
-**Tasks: 36(1)  >>> Files: 33**
+**Tasks: 37(1)  >>> Files: 34**
 
 ## Install
 ```shell
