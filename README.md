@@ -26,6 +26,7 @@ Solving algorithmic problems on leetcode.com
 - [1450. Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) >>> [number_of_students_doing_homework_at_a_given_time.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/number_of_students_doing_homework_at_a_given_time.js)
 - [1451. Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/) >>> [rearrange_words_in_a_sentence.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/rearrange_words_in_a_sentence.js)
 - [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) >>> [running_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/running_sum.js)
+- [1528. Shuffle String](https://leetcode.com/problems/shuffle-string/) >>> [shuffle_string.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/shuffle_string.js)
 - [1566. Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/) >>> [detect_pattern.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/detect_pattern.js)
 - [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) >>> [minimum_time_to_make_rope_colorful.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_time_to_make_rope_colorful.js)
 - [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) >>> [alert_using_same_key_card.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/alert_using_same_key_card.js)
@@ -42,7 +43,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 
-**Tasks: 37(1)  >>> Files: 34**
+**Tasks: 38(1)  >>> Files: 35**
 
 ## Install
 ```shell
