@@ -12,6 +12,7 @@ Solving algorithmic problems on leetcode.com
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/binary_search.js)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/advantage_shuffle.js)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/largest_time_for_given_digits.js)
+- [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) >>> [squares_sorted_array.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/squares_sorted_array.js)
 - [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) >>> [time_based_key_value_store.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_based_key_value_store.js)
 - [982. Triples with Bitwise AND Equal To Zero](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) >>> [triples_with_bitwise.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/triples_with_bitwise.js)
 - [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) >>> [minimum_cost_for_tickets.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_cost_for_tickets.js)
@@ -43,7 +44,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 
-**Tasks: 38(1)  >>> Files: 35**
+**Tasks: 39(1)  >>> Files: 36**
 
 ## Install
 ```shell
