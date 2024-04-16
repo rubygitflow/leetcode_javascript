@@ -8,6 +8,7 @@ Solving algorithmic problems on leetcode.com
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/binary_search.js)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/lru_cache.js)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/two_sum.js)
+- [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) >>> [sliding_window_median.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sliding_window_median.js)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_anagram.js)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sliding_window_median.js)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/binary_search.js)
@@ -45,7 +46,7 @@ Solving algorithmic problems on leetcode.com
 ## Addition
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 
-**Tasks: 40(1)  >>> Files: 37**
+**Tasks: 41(1)  >>> Files: 37**
 
 ## Install
 ```shell

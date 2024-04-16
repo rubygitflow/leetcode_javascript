@@ -44,3 +44,36 @@ console.log(medianSlidingWindow([1,3,-1,-3,5,3,6,7], 1));
 // Output: [1,3,-1,-3,5,3,6,7]
 console.log(medianSlidingWindow([1,3,-1,-3,5,3,6,7], 10));
 // Output: []
+
+
+// ***************************
+// https://leetcode.com/problems/sliding-window-maximum/description/
+// 239. Sliding Window Maximum
+
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number[]}
+ */
+var maxSlidingWindow = function(nums, k) {
+    let res = [],
+        main_win =[];
+    if (nums.length < k) return res
+    // Create and sort window
+    main_win = nums.slice(0, k);
+    for(let i=k;i<nums.length;i++){
+        res.push(Math.max(...main_win));
+        main_win.shift();
+        main_win.push(nums[i]);
+    }
+    res.push(Math.max(...main_win));
+    return res
+};
+
+console.log("Sliding Window Maximum")
+console.log(maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3));
+// Output: [3,3,5,5,6,7]
+console.log(maxSlidingWindow([1], 1));
+// Output: [1]
+console.log(maxSlidingWindow([1,3,-1,-3,5,3,6,7], 10));
+// Output: []
