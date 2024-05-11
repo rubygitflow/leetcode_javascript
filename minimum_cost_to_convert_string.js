@@ -11,10 +11,11 @@
  */
 var minimumCost = function(source, target, original, changed, cost) {
   let m = original.length,
-      minCost = Array(26).fill(0).map(() => Array(26).fill(Infinity));
+      minCost = Array(26).fill(0).map(() => Array(26).fill(Infinity)),
+      charCodeAtA = 'a'.charCodeAt();
   for (let i = 0; i < m; i++) {
-    let originalCharcode = original[i].charCodeAt() - 97;
-    let changedCharcode = changed[i].charCodeAt() - 97;
+    let originalCharcode = original[i].charCodeAt() - charCodeAtA;
+    let changedCharcode = changed[i].charCodeAt() - charCodeAtA;
     minCost[originalCharcode][changedCharcode] = Math.min(minCost[originalCharcode][changedCharcode], cost[i]);
   }
   for (let i = 0; i < 26; i++) minCost[i][i] = 0;
@@ -29,8 +30,8 @@ var minimumCost = function(source, target, original, changed, cost) {
   
   let totalCost = 0;
   for (let i = 0; i < source.length; i++) {
-    let sourceCharcode = source.charCodeAt(i) - 97;
-    let targetCharcode = target.charCodeAt(i) - 97;
+    let sourceCharcode = source.charCodeAt(i) - charCodeAtA;
+    let targetCharcode = target.charCodeAt(i) - charCodeAtA;
     if (minCost[sourceCharcode][targetCharcode] === Infinity) return -1;
     totalCost += minCost[sourceCharcode][targetCharcode];
   }
@@ -42,6 +43,8 @@ console.log(minimumCost("abcd","acbe",["a","b","c","c","e","d"],["b","c","b","e"
 // Output: 28
 console.log(minimumCost("aaaa","bbbb",["a","c"],["c","b"],[1,2]));
 // Output: 12
+console.log(minimumCost("aaaa","bbbb",["a","c"],["d","b"],[1,2]));
+// Output: -1
 console.log(minimumCost("aaaa","bbbb",["a","c","a","d","e"],["c","b","d","e","b"],[3,2,1,1,1]));
 // Output: 12
 console.log(minimumCost("abcd","abce",["a"],["e"],[10000]));
