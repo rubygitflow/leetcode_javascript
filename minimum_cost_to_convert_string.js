@@ -40,9 +40,9 @@ var minimumCost = function(source, target, original, changed, cost) {
 
 console.log("Array's solution")
 console.log(minimumCost("abcd","acbe",["a","b","c","c","e","d"],["b","c","b","e","b","e"],[2,5,5,1,2,20]));
-// Output: 28 (5 < 1+2)
+// Output: 28 (5 > 1+2)
 console.log(minimumCost("abcd","acbe",["a","b","c","c","f","e","d"],["b","c","b","f","e","b","e"],[2,5,5,1,2,1,20]));
-// Output: 29 (5 < 1+2+1)
+// Output: 29 (5 > 1+2+1)
 console.log(minimumCost("aaaa","bbbb",["a","c"],["c","b"],[1,2]));
 // Output: 12
 console.log(minimumCost("aaaa","bbbb",["a","c"],["d","b"],[1,2]));
@@ -109,18 +109,18 @@ var minimumCostEx = function(source, target, original, changed, cost) {
   }
 
   let totalCost = 0;
-  for (let i = 0; i < l; i++) {
-    if (graph[source[i]][target[i]] === Infinity) return -1;
-    totalCost += graph[source[i]][target[i]]||0;
+  for (let i = 0; i < actioned_inp.length; i++) {
+    if (graph[actioned_inp[i]][actioned_out[i]] === Infinity) return -1;
+    totalCost += graph[actioned_inp[i]][actioned_out[i]]||0;
   }
   return totalCost;
 };
 
 console.log("Object's solution")
 console.log(minimumCostEx("abcd","acbe",["a","b","c","c","e","d"],["b","c","b","e","b","e"],[2,5,5,1,2,20]));
-// Output: 28 (5 < 1+2)
+// Output: 28 (5 > 1+2)
 console.log(minimumCostEx("abcd","acbe",["a","b","c","c","f","e","d"],["b","c","b","f","e","b","e"],[2,5,5,1,2,1,20]));
-// Output: 29 (5 < 1+2+1)
+// Output: 29 (5 > 1+2+1)
 console.log(minimumCostEx("aaaa","bbbb",["a","c"],["c","b"],[1,2]));
 // Output: 12
 console.log(minimumCostEx("aaaa","bbbb",["a","c"],["d","b"],[1,2]));
