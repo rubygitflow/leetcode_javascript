@@ -238,10 +238,14 @@ console.log(minimumCostArrII("fgh","ghh",["bcd","fgh","thh"],["cde","thh","ghh"]
 // Output: 8
 console.log(minimumCostArrII("fgh","ghh",["fgh","f","g","thh"],["thh","g","h","ghh"],[3,1,1,5]));
 // Output: 2 (1+1 < 3+5)
+console.log(minimumCostArrII("fgh","f&&",["fgh","fgh"],["f&&","f&"],[11,1]));
+// Output: 11
 console.log(minimumCostArrII("abcdefgh","acdeeghh",["bcd","fgh","thh"],["cde","thh","ghh"],[1,3,5]));
 // Output: 9
 console.log(minimumCostArrII("abcdefgh","addddddd",["bcd","defgh"],["ddd","ddddd"],[100,1578]));
 // Output: -1
+console.log(minimumCostArrII("aaa","aaa",["a"],["e"],[10000]));
+// Output: 0
 
 
 /**
@@ -336,7 +340,11 @@ console.log(minimumCostObjII("fgh","ghh",["bcd","fgh","thh"],["cde","thh","ghh"]
 // Output: 8
 console.log(minimumCostObjII("fgh","ghh",["fgh","f","g","thh"],["thh","g","h","ghh"],[3,1,1,5]));
 // Output: 2 (1+1 < 3+5)
+console.log(minimumCostObjII("fgh","f&&",["fgh","fgh"],["f&&","f&"],[11,1]));
+// Output: 11
 console.log(minimumCostObjII("abcdefgh","acdeeghh",["bcd","fgh","thh"],["cde","thh","ghh"],[1,3,5]));
 // Output: 9
 console.log(minimumCostObjII("abcdefgh","addddddd",["bcd","defgh"],["ddd","ddddd"],[100,1578]));
 // Output: -1
+console.log(minimumCostObjII("aaa","aaa",["a"],["e"],[10000]));
+// Output: 0
