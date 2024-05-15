@@ -261,6 +261,7 @@ var minimumCostObjII = function(source, target, original, changed, cost) {
   const dp = new Array(source.length + 1).fill(Infinity);
   // console.log("Created dp: ", dp)
   const original_set = new Set(original),
+        original_len_set = new Set(original.map(elem => elem.length));
         changed_set = new Set(changed),
         union = new Set([...original_set, ...changed_set]);
   const m = original.length;
@@ -301,9 +302,7 @@ var minimumCostObjII = function(source, target, original, changed, cost) {
     }
     // console.log("sourceChar: ", sourceChar,"; targetChar: ", targetChar,"; dp: ", dp)
 
-    for (const substring of original_set) {
-      const substringLength = substring.length;
-
+    for (const substringLength of original_len_set) {
       // the rest of the string is less than or equal to the substring
       if (i + substringLength > source.length) {
         continue;
