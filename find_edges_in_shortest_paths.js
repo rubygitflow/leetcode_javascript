@@ -1,6 +1,9 @@
 // https://leetcode.com/problems/find-edges-in-shortest-paths/description/
 // 3123. Find Edges in Shortest Paths
 
+// https://github.com/datastructures-js/priority-queue?tab=readme-ov-file#install
+// npm install --save @datastructures-js/priority-queue
+
 const {
   PriorityQueue,
 } = require('@datastructures-js/priority-queue');
@@ -11,14 +14,13 @@ const {
  * @return {boolean[]}
  */
 var findAnswer = function(n, edges) {
-
     const graph = Array(n).fill(null).map(() => []);
     for (const [u, v, w] of edges) {
         graph[u].push([v, w]);
         graph[v].push([u, w]);
     }
 
-    let fn = (source) => {
+    let dijkstra = (source) => {
         const dist = Array(n).fill(Infinity);
         dist[source] = 0;
         const pq = new PriorityQueue((x, y) => {x[0] - y[0] });
@@ -37,10 +39,11 @@ var findAnswer = function(n, edges) {
         return dist;
     };
 
-    const dist0 = fn(0),
-          dist1 = fn(n-1),
+    const dist0 = dijkstra(0),
+          dist1 = dijkstra(n-1),
           m = edges.length;
     if (dist0[n-1] == Infinity) return Array(m).fill(false);
+
     const ans = [];
     for (const [u, v, w] of edges)
         ans.push(dist0[u]+w+dist1[v] == dist0[n-1] || dist1[u]+w+dist0[v] == dist0[n-1]);
