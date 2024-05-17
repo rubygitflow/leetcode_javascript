@@ -55,6 +55,7 @@ Solving algorithmic problems on leetcode.com
 ## Install
 ```shell
 $ git clone git@github.com:rubygitflow/leetcode_javascript.git && cd leetcode_javascript/
+$ npm install
 ```
 
 ## Run example
