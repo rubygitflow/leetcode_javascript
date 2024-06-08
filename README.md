@@ -41,6 +41,7 @@ Solving algorithmic problems on leetcode.com
 - [1736. Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) >>> [latest_time_by_replacing_hidden_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/latest_time_by_replacing_hidden_digits.js)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/concatenation_of_array.js)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_needed_to_buy.js)
+- [2243. Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) >>> [calculate_digit_sum_of_string.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/calculate_digit_sum_of_string.js)
 - [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) >>> [maximum_total_importance.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_total_importance.js)
 - [2287. Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) >>> [rearrange_characters.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/rearrange_characters.js)
 - [2309. Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) >>> [greatest_letter.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/greatest_letter.js)
@@ -57,7 +58,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 51(2)  >>> Files: 46**
+**Tasks: 52(2)  >>> Files: 47**
 
 ## Install
 ```shell
