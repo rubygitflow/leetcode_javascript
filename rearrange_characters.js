@@ -27,7 +27,7 @@ var rearrangeCharacters = function(s, target) {
     return min;
 };
 
-
+console.log("Rearrange Characters to Make Target String");
 console.log(rearrangeCharacters("ilovecodingonleetcode","code"));
 // Output: 2
 console.log(rearrangeCharacters("abcba","abc"));
@@ -36,3 +36,31 @@ console.log(rearrangeCharacters("abbaccaddaeea","aaaaa"));
 // Output: 1
 console.log(rearrangeCharacters("abbaccaddaeea","фd"));
 // Output: 0
+
+// ############################
+// https://leetcode.com/problems/sum-of-unique-elements/
+// 1748. Sum of Unique Elements
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var sumOfUnique = function(nums) {
+    let cnt = new Map();
+    for (let num of nums) {
+        cnt.set(num, (cnt.get(num) || 0) + 1);
+    };
+    let out = 0;
+    for (let [key, val] of cnt) {
+        if (val === 1) out += key;
+    };
+    return out;
+};
+
+console.log("Sum of Unique Elements");
+console.log(sumOfUnique([1,2,3,2]));
+// Output: 4
+console.log(sumOfUnique([1,1,1,1,1]));
+// Output: 0
+console.log(sumOfUnique([1,2,3,4,5]));
+// Output: 15
