@@ -39,6 +39,7 @@ Solving algorithmic problems on leetcode.com
 - [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) >>> [maximum_binary_string_after_change.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_binary_string_after_change.js)
 - [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) >>> [find_minimum_time_to_finish_all_jobs.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/find_minimum_time_to_finish_all_jobs.js)
 - [1736. Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) >>> [latest_time_by_replacing_hidden_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/latest_time_by_replacing_hidden_digits.js)
+- [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/) >>> [favorite_candy_on_favorite_day.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/favorite_candy_on_favorite_day.js)
 - [1748. Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) >>> [rearrange_characters.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/rearrange_characters.js)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/concatenation_of_array.js)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sum_of_digits.js)
@@ -62,7 +63,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 56(2)  >>> Files: 50**
+**Tasks: 57(2)  >>> Files: 51**
 
 ## Install
 ```shell
