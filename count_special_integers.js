@@ -37,7 +37,8 @@ console.log(countNumbersWithUniqueDigits(7));
 console.log(countNumbersWithUniqueDigits(8));
 // Output: 2345851
 
-// ###########################
+
+// ######################
 // https://leetcode.com/problems/count-special-integers/description/
 // 2376. Count Special Integers
 // Explanation: https://algo.monster/liteproblems/2376
@@ -98,3 +99,26 @@ console.log(countSpecialNumbers(320));
 // Output: 251
 console.log(countSpecialNumbers(2 * 10 ** 9));
 // Output: 5974650
+
+
+// ######################
+// https://leetcode.com/problems/count-numbers-with-unique-digits-ii/description/
+// 3032. Count Numbers With Unique Digits II
+// Explanation: https://algo.monster/liteproblems/3032
+
+/**
+ * @param {number} a
+ * @param {number} b
+ * @return {number}
+ */
+var numberCount = function(a, b) {
+  return countSpecialNumbers(b) - (a > 1 ? countSpecialNumbers(a-1) : 0)
+};
+
+console.log("Count Numbers With Unique Digits II")
+console.log(numberCount(1, 20));
+// Output: 19
+console.log(numberCount(9, 19));
+// Output: 10
+console.log(numberCount(80, 120));
+// Output: 27

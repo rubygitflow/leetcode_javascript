@@ -59,6 +59,7 @@ Solving algorithmic problems on leetcode.com
 - [2863. Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/) >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 - [2976. Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) >>> [minimum_cost_to_convert_string.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_cost_to_convert_string.js)
 - [2977. Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) >>> [minimum_cost_to_convert_string.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_cost_to_convert_string.js)
+- [3032. Count Numbers With Unique Digits II](https://leetcode.com/problems/count-numbers-with-unique-digits-ii/) >>> [count_special_integers.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/count_special_integers.js)
 - [3083. Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) >>> [existence_substring_in_string.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/existence_substring_in_string.js)
 - [3123. Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/) >>> [find_edges_in_shortest_paths.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/find_edges_in_shortest_paths.js)
 
@@ -66,7 +67,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 60(2)  >>> Files: 53**
+**Tasks: 61(2)  >>> Files: 53**
 
 ## Install
 ```shell
