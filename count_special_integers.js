@@ -17,6 +17,7 @@ var countNumbersWithUniqueDigits = function(n) {
   return out
 };
 
+console.log("Count Numbers with Unique Digits")
 console.log(countNumbersWithUniqueDigits(0));
 // Output: 1
 console.log(countNumbersWithUniqueDigits(1));
@@ -35,3 +36,65 @@ console.log(countNumbersWithUniqueDigits(7));
 // Output: 712891
 console.log(countNumbersWithUniqueDigits(8));
 // Output: 2345851
+
+// ###########################
+// https://leetcode.com/problems/count-special-integers/description/
+// 2376. Count Special Integers
+// Explanation: https://algo.monster/liteproblems/2376
+
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var countSpecialNumbers = function(n) {
+    // Permutation function permutations(m, n)
+    // that calculates permutations of m elements taken n at a time.
+    // Recursive function to calculate permutations: permutations(m, n) = m! / (m-n)!
+    function permutations(m, n){
+        let nonRepeatingNums = 1
+        for(let i = 0; i < n; i++) {
+            nonRepeatingNums*=m
+            m--
+        }
+        return nonRepeatingNums
+    }
+
+    const digits = []
+    let answer = 0
+    let temp = n+1
+
+    while(temp !== 0) {
+        digits.unshift(temp%10)
+        temp = Math.floor(temp/10)
+    }
+
+    for(let i = 0; i < digits.length - 1; i++) {
+        answer += 9 * permutations(9,i)
+    }
+
+    const visited = new Set()
+
+    for(let i = 0; i < digits.length; i++) {
+        const current_digit = digits[i];
+        for(let j = i===0?1:0; j < current_digit; j++) {
+            if(visited.has(j)) continue
+            answer += permutations(10-(i+1), digits.length - 1 - i)
+        }
+        if(visited.has(current_digit)) break
+        visited.add(current_digit)
+    }
+
+    return answer
+};
+
+console.log("Count Special Integers")
+console.log(countSpecialNumbers(5));
+// Output: 5
+console.log(countSpecialNumbers(20));
+// Output: 19
+console.log(countSpecialNumbers(135));
+// Output: 110
+console.log(countSpecialNumbers(320));
+// Output: 251
+console.log(countSpecialNumbers(2 * 10 ** 9));
+// Output: 5974650
