@@ -18,3 +18,7 @@ console.log(alternateDigitSum(111));
 // Output: 1
 console.log(alternateDigitSum(886996));
 // Output: 0
+console.log(alternateDigitSum(885996));
+// Output: -1
+console.log(alternateDigitSum(886995));
+// Output: 1
