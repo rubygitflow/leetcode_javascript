@@ -8,6 +8,7 @@ Solving algorithmic problems on leetcode.com
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/binary_search.js)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/lru_cache.js)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/two_sum.js)
+- [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) >>> [contains_duplicate.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/contains_duplicate.js)
 - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) >>> [sliding_window_median.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sliding_window_median.js)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_anagram.js)
 - [258. Add Digits](https://leetcode.com/problems/add-digits/) >>> [alternating_digit_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/alternating_digit_sum.js)
@@ -69,7 +70,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 63(2)  >>> Files: 54**
+**Tasks: 64(2)  >>> Files: 55**
 
 ## Install
 ```shell
