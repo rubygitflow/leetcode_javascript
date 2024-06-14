@@ -22,3 +22,29 @@ console.log(alternateDigitSum(885996));
 // Output: -1
 console.log(alternateDigitSum(886995));
 // Output: 1
+
+
+// ############################
+// https://leetcode.com/problems/add-digits/description/
+// 258. Add Digits
+// Explanation: https://algo.monster/liteproblems/258
+
+/**
+ * @param {number} num
+ * @return {number}
+ */
+var addDigits = function(num) {
+    if (isNaN(num) || num === 0) return 0;
+
+    return (num - 1) % 9 + 1;
+};
+
+console.log("Add Digits (digital root - Time complexity: O(1))")
+console.log(addDigits(38));
+// Output: 2
+console.log(addDigits(0));
+// Output: 0
+console.log(addDigits(886995));
+// Output: 9
+console.log(addDigits(1));
+// Output: 1
