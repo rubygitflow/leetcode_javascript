@@ -8,6 +8,7 @@ Solving algorithmic problems on leetcode.com
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/binary_search.js)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/lru_cache.js)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/two_sum.js)
+- [204. Count Primes](https://leetcode.com/problems/count-primes/) >>> [count_primes.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/count_primes.js)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) >>> [contains_duplicate.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/contains_duplicate.js)
 - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) >>> [contains_duplicate.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/contains_duplicate.js)
 - [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) >>> [contains_duplicate.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/contains_duplicate.js)
@@ -72,7 +73,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 66(2)  >>> Files: 55**
+**Tasks: 67(2)  >>> Files: 56**
 
 ## Install
 ```shell
