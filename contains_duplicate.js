@@ -19,9 +19,38 @@ var containsDuplicate = function(nums) {
   return false
 };
 
+console.log("Contains Duplicate (set)")
 console.log(containsDuplicate([1,2,3,1]))
 // Output: true
 console.log(containsDuplicate([1,2,3,4]))
 // Output: false
 console.log(containsDuplicate([1,1,1,3,3,4,3,2,4,2]))
 // Output: true
+
+
+// ###################
+// https://leetcode.com/problems/contains-duplicate-ii/description/
+// 219. Contains Duplicate II
+
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {boolean}
+ */
+var containsNearbyDuplicate = function(nums, k) {
+    const visited = new Map();
+    for (let idx = 0; idx < nums.length; idx++) {
+        if (visited.has(nums[idx]) && idx - visited.get(nums[idx]) <= k) return true;
+
+        visited.set(nums[idx], idx);
+    }
+    return false;
+};
+
+console.log("Contains Duplicate II")
+console.log(containsNearbyDuplicate([1,2,3,1], 3))
+// Output: true
+console.log(containsNearbyDuplicate([1,0,1,1], 1))
+// Output: true
+console.log(containsNearbyDuplicate([1,2,3,1,2,3], 2))
+// Output: false
