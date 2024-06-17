@@ -51,6 +51,7 @@ Solving algorithmic problems on leetcode.com
 - [1736. Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/) >>> [latest_time_by_replacing_hidden_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/latest_time_by_replacing_hidden_digits.js)
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/) >>> [favorite_candy_on_favorite_day.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/favorite_candy_on_favorite_day.js)
 - [1748. Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) >>> [rearrange_characters.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/rearrange_characters.js)
+- [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) >>> [jump_game.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/jump_game.js)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/concatenation_of_array.js)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sum_of_digits.js)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_needed_to_buy.js)
@@ -76,7 +77,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 70(2)  >>> Files: 58**
+**Tasks: 71(2)  >>> Files: 58**
 
 ## Install
 ```shell
