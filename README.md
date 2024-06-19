@@ -4,6 +4,7 @@ Solving algorithmic problems on leetcode.com
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) >>> [two_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/two_sum.js)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/three_sum.js)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/four_sum.js)
+- [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) >>> [multiply_strings.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/multiply_strings.js)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_anagram.js)
 - [55. Jump Game](https://leetcode.com/problems/jump-game/) >>> [jump_game.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/jump_game.js)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) >>> [sqrt_x.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sqrt_x.js)
@@ -77,7 +78,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 71(2)  >>> Files: 58**
+**Tasks: 72(2)  >>> Files: 59**
 
 ## Install
 ```shell
