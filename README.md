@@ -8,6 +8,7 @@ Solving algorithmic problems on leetcode.com
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/three_sum.js)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/four_sum.js)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say/) >>> [count_and_say.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/count_and_say.js)
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) >>> [container_with_most_water.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/container_with_most_water.rb)
 - [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) >>> [multiply_strings.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/multiply_strings.js)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_anagram.js)
 - [55. Jump Game](https://leetcode.com/problems/jump-game/) >>> [jump_game.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/jump_game.js)
@@ -83,7 +84,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 77(2)  >>> Files: 63**
+**Tasks: 78(2)  >>> Files: 63**
 
 ## Install
 ```shell
