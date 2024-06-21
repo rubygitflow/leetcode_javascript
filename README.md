@@ -2,6 +2,7 @@
 Solving algorithmic problems on leetcode.com
 
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) >>> [two_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/two_sum.js)
+- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) >>> [palindrome_number.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/palindrome_number.js)
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) >>> [common_prefix.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/common_prefix.js)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) >>> [three_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/three_sum.js)
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/four_sum.js)
@@ -81,7 +82,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 75(2)  >>> Files: 61**
+**Tasks: 76(2)  >>> Files: 62**
 
 ## Install
 ```shell
