@@ -25,3 +25,38 @@ console.log(maxProfit([7,1,5,3,6,4]))
 // Output: 5
 console.log(maxProfit([7,6,4,3,1]))
 // Output: 0
+
+
+// ######################
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+// 122. Best Time to Buy and Sell Stock II
+
+
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfitII = function(prices) {
+  if (prices.length < 2) return 0;
+
+  let profit = 0;
+  let minPrice = prices[0];
+  for (let i = 1; i < prices.length; i++) {
+    profit += Math.max(0, prices[i] - minPrice);
+    minPrice = prices[i];
+  }
+  return profit;
+};
+
+
+console.log("Best Time to Buy and Sell Stock II")
+console.log(maxProfitII([7,1,5,3,6,4]))
+// Output: 7
+console.log(maxProfitII([1,2,3,4,5]))
+// Output: 4
+console.log(maxProfitII([7,6,4,3,1]))
+// Output: 0
+console.log(maxProfitII([7]))
+// Output: 0
+console.log(maxProfitII([]))
+// Output: 0
