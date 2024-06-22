@@ -6,7 +6,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-  const stack = [];
+  let stack = [];
   const pairs = {
                   '(': ')',
                   '{': '}',

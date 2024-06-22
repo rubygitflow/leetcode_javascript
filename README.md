@@ -13,6 +13,7 @@ Solving algorithmic problems on leetcode.com
 - [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) >>> [multiply_strings.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/multiply_strings.js)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_anagram.js)
 - [55. Jump Game](https://leetcode.com/problems/jump-game/) >>> [jump_game.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/jump_game.js)
+- [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) >>> [merge_intervals.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/merge_intervals.js)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) >>> [sqrt_x.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sqrt_x.js)
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/binary_search.js)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/lru_cache.js)
@@ -85,7 +86,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 79(2)  >>> Files: 64**
+**Tasks: 80(2)  >>> Files: 65**
 
 ## Install
 ```shell
