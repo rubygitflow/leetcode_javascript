@@ -16,6 +16,7 @@ Solving algorithmic problems on leetcode.com
 - [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) >>> [merge_intervals.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/merge_intervals.js)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) >>> [sqrt_x.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sqrt_x.js)
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) >>> [binary_search.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/binary_search.js)
+- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) >>> [best_time_to_buy_and_sell_stock.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/best_time_to_buy_and_sell_stock.js)
 - [146. LRU Cache](https://leetcode.com/problems/lru-cache/) >>> [lru_cache.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/lru_cache.js)
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) >>> [two_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/two_sum.js)
 - [202. Happy Number](https://leetcode.com/problems/happy-number/) >>> [sum_of_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sum_of_digits.js)
@@ -86,7 +87,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 80(2)  >>> Files: 65**
+**Tasks: 81(2)  >>> Files: 66**
 
 ## Install
 ```shell
