@@ -60,3 +60,46 @@ console.log(maxProfitII([7]))
 // Output: 0
 console.log(maxProfitII([]))
 // Output: 0
+
+
+// ######################
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
+// 123. Best Time to Buy and Sell Stock III
+
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfitIII = function(prices) {
+  if (prices.length < 2) return 0;
+
+  let profit = [0];
+  let buy = prices[0];
+  for (let i = 1; i < prices.length; i++) {
+    const curr = prices[i];
+    const last_ind = profit.length - 1;
+    if (curr > buy) {
+      profit[last_ind] += curr - buy
+    } else if (curr < buy){
+      profit.push(0)
+    }
+    buy = curr
+  }
+  return profit
+    .sort(function(a, b){return b - a})
+    .slice(0,2)
+    .reduce((accumulator, current) => accumulator + current, 0);
+};
+
+
+console.log("Best Time to Buy and Sell Stock III")
+console.log(maxProfitIII([3,3,5,0,0,3,1,4]))
+// Output: 6
+console.log(maxProfitIII([1,2,3,4,5]))
+// Output: 4
+console.log(maxProfitIII([7,6,4,3,1]))
+// Output: 0
+console.log(maxProfitIII([7]))
+// Output: 0
+console.log(maxProfitIII([]))
+// Output: 0
