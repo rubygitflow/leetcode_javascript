@@ -80,6 +80,7 @@ Solving algorithmic problems on leetcode.com
 - [2376. Count Special Integers](https://leetcode.com/problems/count-special-integers/) >>> [count_special_integers.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/count_special_integers.js)
 - [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) >>> [time_needed_to_rearrange.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_needed_to_rearrange.js)
 - [2412. Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/) >>> [minimum_money_required_before_transactions.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_money_required_before_transactions.js)
+- [2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) >>> [smallest_even_multiple.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/smallest_even_multiple.js)
 - [2544. Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) >>> [alternating_digit_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/alternating_digit_sum.js)
 - [2727. Is Object Empty](https://leetcode.com/problems/is-object-empty/) >>> [is_object_empty.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/is_object_empty.js)
 - [2863. Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/) >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
@@ -94,7 +95,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 88(2)  >>> Files: 68**
+**Tasks: 89(2)  >>> Files: 69**
 
 ## Install
 ```shell
