@@ -47,6 +47,7 @@ Solving algorithmic problems on leetcode.com
 - [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) >>> [corporate_flight_bookings.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/corporate_flight_bookings.js)
 - [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) >>> [maximum_number_of_balloons.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_number_of_balloons.js)
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) >>> [critical_connections_in_a_network.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/critical_connections_in_a_network.js)
+- [1243. Array Transformation](https://leetcode.com/problems/array-transformation/) >>> [array_transformation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/array_transformation.js)
 - [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) >>> [minimum_time_visiting_all_points.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_time_visiting_all_points.js)
 - [1375. Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) >>> [number_of_times_binary_string.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/number_of_times_binary_string.js)
 - [1376. Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) >>> [time_needed_to_inform.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_needed_to_inform.js)
@@ -92,7 +93,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 86(2)  >>> Files: 66**
+**Tasks: 87(2)  >>> Files: 67**
 
 ## Install
 ```shell
