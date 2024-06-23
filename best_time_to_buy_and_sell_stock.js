@@ -143,3 +143,31 @@ console.log(maxProfitIV(2, [3,2,6,7,5,0,3]))
 // Output: 8
 console.log(maxProfitIV(2, [3,2,6,5,0,3]))
 // Output: 7
+
+
+// ######################
+//  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/
+//  309. Best Time to Buy and Sell Stock with Cooldown
+// Explanation: https://algo.monster/liteproblems/309
+
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfitWithHold = function(prices) {
+  if (prices.length < 2) return 0;
+
+  let [sold, hold, rest] = [0, -prices[0], 0];
+  for (const price of prices.slice(1)) {
+      [sold, hold, rest] = [Math.max(hold + price, sold),
+                            Math.max(rest - price, hold),
+                            Math.max(sold, hold, rest)];
+  }
+  return Math.max(sold, hold, rest);
+};
+
+console.log("Best Time to Buy and Sell Stock with Cooldown")
+console.log(maxProfitWithHold([1,2,3,0,2]))
+// Output: 3
+console.log(maxProfitWithHold([1]))
+// Output: 0
