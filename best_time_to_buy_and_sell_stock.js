@@ -171,3 +171,34 @@ console.log(maxProfitWithHold([1,2,3,0,2]))
 // Output: 3
 console.log(maxProfitWithHold([1]))
 // Output: 0
+
+
+// ######################
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/
+// 714. Best Time to Buy and Sell Stock with Transaction Fee
+// Explanation: https://algo.monster/liteproblems/714
+
+/**
+ * @param {number[]} prices
+ * @param {number} fee
+ * @return {number}
+ */
+var maxProfitAfterFee = function(prices, fee) {
+  let n = prices.length;
+  let [sell, buy] = [0, -prices[0]]
+  for(let i = 1; i < n; i++) {
+    let tmp = buy;
+    buy = Math.max(buy, sell - prices[i])
+    sell = Math.max(sell, tmp + prices[i] - fee)
+  }
+  return sell
+};
+
+
+console.log("Best Time to Buy and Sell Stock with Transaction Fee")
+console.log(maxProfitAfterFee([1,3,2,8,4,9], 2))
+// Output: 8
+console.log(maxProfitAfterFee([1,3,7,5,10,3], 3))
+// Output: 6
+console.log(maxProfitAfterFee([8,9,7,6,8,8], 2))
+// Output: 0

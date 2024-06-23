@@ -35,6 +35,7 @@ Solving algorithmic problems on leetcode.com
 - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) >>> [first_unique_character.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/first_unique_character.js)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sliding_window_median.js)
 - [704. Binary Search](https://leetcode.com/problems/binary-search/) >>> [binary_search.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/binary_search.js)
+- [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) >>> [best_time_to_buy_and_sell_stock.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/best_time_to_buy_and_sell_stock.js)
 - [870. Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/) >>> [advantage_shuffle.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/advantage_shuffle.js)
 - [949. Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) >>> [largest_time_for_given_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/largest_time_for_given_digits.js)
 - [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) >>> [squares_sorted_array.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/squares_sorted_array.js)
@@ -91,7 +92,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 85(2)  >>> Files: 66**
+**Tasks: 86(2)  >>> Files: 66**
 
 ## Install
 ```shell
