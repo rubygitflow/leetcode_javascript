@@ -23,3 +23,27 @@ console.log(singleNumber([4,1,2,1,2]))
 // Output: 4
 console.log(singleNumber([1]))
 // Output: 1
+
+
+// #######################
+// https://leetcode.com/problems/single-number-ii/description/
+// 137. Single Number II
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var singleNumberII = function(nums) {
+  let count = {};
+  for(let x of nums) count[x] = (count[x] != null) ? count[x]+1 : 1;
+  for(let x in count) if(count[x] === 1) return x;
+  return 0;
+};
+
+console.log("Single Number II")
+console.log(singleNumberII([2,2,3,2]))
+// Output: 3
+console.log(singleNumberII([0,1,0,1,0,1,99]))
+// Output: 99
+console.log(singleNumberII([0,1,0,1,0,1]))
+// Output: 0
