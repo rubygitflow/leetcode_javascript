@@ -72,6 +72,7 @@ Solving algorithmic problems on leetcode.com
 - [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) >>> [jump_game.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/jump_game.js)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/concatenation_of_array.js)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sum_of_digits.js)
+- [1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/description/) >>> [maximum_matrix_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_matrix_sum.js)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_needed_to_buy.js)
 - [2220. Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) >>> [minimum_bit_flips.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_bit_flips.js)
 - [2221. Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) >>> [find_triangular_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/find_triangular_sum.js)
@@ -98,7 +99,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 92(2)  >>> Files: 71**
+**Tasks: 93(2)  >>> Files: 72**
 
 ## Install
 ```shell
