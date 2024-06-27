@@ -72,6 +72,7 @@ Solving algorithmic problems on leetcode.com
 - [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) >>> [jump_game.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/jump_game.js)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/concatenation_of_array.js)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sum_of_digits.js)
+- [1958. Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/) >>> [check_if_move_is_legal.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/check_if_move_is_legal.js)
 - [1974. Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/) >>> [minimum_time_to_type_word_using_special_typewriter.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_time_to_type_word_using_special_typewriter.js)
 - [1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/description/) >>> [maximum_matrix_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_matrix_sum.js)
 - [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) >>> [time_needed_to_buy.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/time_needed_to_buy.js)
@@ -100,7 +101,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 94(2)  >>> Files: 73**
+**Tasks: 95(2)  >>> Files: 74**
 
 ## Install
 ```shell
