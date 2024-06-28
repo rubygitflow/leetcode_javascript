@@ -34,6 +34,7 @@ Solving algorithmic problems on leetcode.com
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) >>> [valid_anagram.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_anagram.js)
 - [258. Add Digits](https://leetcode.com/problems/add-digits/) >>> [alternating_digit_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/alternating_digit_sum.js)
 - [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) >>> [best_time_to_buy_and_sell_stock.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/best_time_to_buy_and_sell_stock.js)
+- [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) >>> [top_k_frequent_words.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/top_k_frequent_words.js)
 - [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) >>> [count_special_integers.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/count_special_integers.js)
 - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) >>> [first_unique_character.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/first_unique_character.js)
 - [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) >>> [sliding_window_median.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sliding_window_median.js)
@@ -104,7 +105,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 98(2)  >>> Files: 77**
+**Tasks: 99(2)  >>> Files: 77**
 
 ## Install
 ```shell
