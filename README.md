@@ -9,7 +9,7 @@ Solving algorithmic problems on leetcode.com
 - [18. 4Sum](https://leetcode.com/problems/4sum/) >>> [four_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/four_sum.js)
 - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) >>> [valid_parentheses.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_parentheses.js)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say/) >>> [count_and_say.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/count_and_say.js)
-- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) >>> [container_with_most_water.rb](https://github.com/rubygitflow/leetcode_ruby/blob/master/container_with_most_water.rb)
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) >>> [container_with_most_water.rb](https://github.com/rubygitflow/leetcode_javascript/blob/master/container_with_most_water.rb)
 - [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) >>> [multiply_strings.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/multiply_strings.js)
 - [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) >>> [valid_anagram.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/valid_anagram.js)
 - [55. Jump Game](https://leetcode.com/problems/jump-game/) >>> [jump_game.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/jump_game.js)
@@ -72,7 +72,8 @@ Solving algorithmic problems on leetcode.com
 - [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) >>> [jump_game.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/jump_game.js)
 - [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) >>> [concatenation_of_array.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/concatenation_of_array.js)
 - [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) >>> [sum_of_digits.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/sum_of_digits.js)
-- [1957. Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) >>> [delete_characters_to_make_fancy_string.js](https://github.com/rubygitflow/leetcode_ruby/blob/master/delete_characters_to_make_fancy_string.js)
+- [1955. Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences/) >>> [count_number_of_special_subsequences.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/count_number_of_special_subsequences.js)
+- [1957. Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) >>> [delete_characters_to_make_fancy_string.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/delete_characters_to_make_fancy_string.js)
 - [1958. Check if Move is Legal](https://leetcode.com/problems/check-if-move-is-legal/) >>> [check_if_move_is_legal.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/check_if_move_is_legal.js)
 - [1974. Minimum Time to Type Word Using Special Typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/) >>> [minimum_time_to_type_word_using_special_typewriter.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/minimum_time_to_type_word_using_special_typewriter.js)
 - [1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/description/) >>> [maximum_matrix_sum.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_matrix_sum.js)
@@ -102,7 +103,7 @@ Solving algorithmic problems on leetcode.com
 - Matching strings up to letter permutation >>> [matching_strings_up_to_letter_permutation.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/matching_strings_up_to_letter_permutation.js)
 - Maximum Length of Semi-Increasing Subarrays >>> [maximum_length_of_semi_decreasing_subarrays.js](https://github.com/rubygitflow/leetcode_javascript/blob/master/maximum_length_of_semi_decreasing_subarrays.js)
 
-**Tasks: 96(2)  >>> Files: 75**
+**Tasks: 97(2)  >>> Files: 76**
 
 ## Install
 ```shell
