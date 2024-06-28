@@ -5,6 +5,25 @@
  * @param {number[]} nums
  * @return {number}
  */
+var singleNumberIII = function(nums) {
+  return nums.reduce((out, num) => {return out^num;});
+};
+
+
+console.log("Single Number (reduce)")
+console.log(singleNumberIII([2,2,1,1,1]))
+// Output: 1
+console.log(singleNumberIII([2,2,1]))
+// Output: 1
+console.log(singleNumberIII([4,1,2,1,2]))
+// Output: 4
+console.log(singleNumberIII([1]))
+// Output: 1
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
 var singleNumber = function(nums) {
   let out = 0; 
   for (let num of nums) {

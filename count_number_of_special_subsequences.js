@@ -32,7 +32,7 @@ console.log(countSpecialSubsequences([0,1,2,0,1,2]))
  * @param {number[]} nums
  * @return {number}
  */
-var countSpecialSubsequencesIII = function(nums) {
+var countSpecialSubsequencesII = function(nums) {
   const mod = Math.pow(10, 9) + 7
   return nums.reduce(([total_zeros, total_ones, total_twos], n, idx) => {
     return [
@@ -43,13 +43,13 @@ var countSpecialSubsequencesIII = function(nums) {
   }, [0,0,0])[2];
 };
 
-console.log(countSpecialSubsequencesIII([0,1,2]))
+console.log(countSpecialSubsequencesII([0,1,2]))
 // Output: 1
-console.log(countSpecialSubsequencesIII([0,1,2,0]))
+console.log(countSpecialSubsequencesII([0,1,2,0]))
 // Output: 1
-console.log(countSpecialSubsequencesIII([0,1,2,2]))
+console.log(countSpecialSubsequencesII([0,1,2,2]))
 // Output: 3
-console.log(countSpecialSubsequencesIII([2,2,0,0]))
+console.log(countSpecialSubsequencesII([2,2,0,0]))
 // Output: 0
-console.log(countSpecialSubsequencesIII([0,1,2,0,1,2]))
+console.log(countSpecialSubsequencesII([0,1,2,0,1,2]))
 // Output: 7
