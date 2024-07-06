@@ -70,3 +70,5 @@ console.log(topKFrequentElements([1,1,1,2,2,3,0,0,0,5,5,5], 2))
 // Output: [0, 1]
 console.log(topKFrequentElements([1,1,1,2,2,3,5,5,5,0,0,0], 2))
 // Output: [0, 1]
+
+module.exports = { topKFrequentWords, topKFrequentElements };

@@ -55,7 +55,7 @@ console.log(singleNumber([1]))
 var singleNumberII = function(nums) {
   let count = {};
   for(let x of nums) count[x] = (count[x] != null) ? count[x]+1 : 1;
-  for(let x in count) if(count[x] === 1) return x;
+  for(let x in count) if(count[x] === 1) return Number(x);
   return 0;
 };
 
@@ -66,3 +66,5 @@ console.log(singleNumberII([0,1,0,1,0,1,99]))
 // Output: 99
 console.log(singleNumberII([0,1,0,1,0,1]))
 // Output: 0
+
+module.exports = { singleNumber, singleNumberII, singleNumberIII };

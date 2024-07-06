@@ -48,3 +48,4 @@ console.log(minTime(9,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6],[4,7],[4,8]],[false,f
 console.log(minTime(9,[[0,1],[0,2],[1,4],[1,5],[2,3],[2,6],[4,7],[4,8]],[false,true,false,false,true,false,false,false,true]));
 // Output: 6
 
+module.exports = { minTime };
