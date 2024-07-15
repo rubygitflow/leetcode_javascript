@@ -117,3 +117,8 @@ $ npm install
 ```shell
 $ node latest_time_by_replacing_hidden_digits.js
 ```
+
+## Run tests
+```shell
+$ npm test
+```

@@ -15,6 +15,7 @@ var makeFancyString = function(s) {
   }, ['','',''])[0];
 };
 
+console.log("Delete Characters to Make Fancy String (reduce)")
 console.log(makeFancyString("leeetcode"))
 // Output: "leetcode"
 console.log(makeFancyString("aaabaaaa"))
@@ -36,9 +37,12 @@ var makeFancyStringII = function(s) {
     return acc;
 };
 
+console.log("Delete Characters to Make Fancy String (FOR-loop)")
 console.log(makeFancyStringII("leeetcode"))
 // Output: "leetcode"
 console.log(makeFancyStringII("aaabaaaa"))
 // Output: "aabaa"
 console.log(makeFancyStringII("aab"))
 // Output: "aab"
+
+module.exports = { makeFancyString, makeFancyStringII };
