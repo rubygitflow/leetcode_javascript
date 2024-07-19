@@ -33,7 +33,7 @@ var singleNumber = function(nums) {
 };
 
 
-console.log("Single Number")
+console.log("Single Number (FOR-loop)")
 console.log(singleNumber([2,2,1,1,1]))
 // Output: 1
 console.log(singleNumber([2,2,1]))

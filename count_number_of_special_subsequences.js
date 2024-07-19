@@ -18,6 +18,7 @@ var countSpecialSubsequences = function(nums) {
   return total_twos 
 };
 
+console.log("Count Number of Special Subsequences (FOR-loop)")
 console.log(countSpecialSubsequences([0,1,2]))
 // Output: 1
 console.log(countSpecialSubsequences([0,1,2,0]))
@@ -43,6 +44,7 @@ var countSpecialSubsequencesII = function(nums) {
   }, [0,0,0])[2];
 };
 
+console.log("Count Number of Special Subsequences (reduce)")
 console.log(countSpecialSubsequencesII([0,1,2]))
 // Output: 1
 console.log(countSpecialSubsequencesII([0,1,2,0]))
@@ -53,3 +55,5 @@ console.log(countSpecialSubsequencesII([2,2,0,0]))
 // Output: 0
 console.log(countSpecialSubsequencesII([0,1,2,0,1,2]))
 // Output: 7
+
+module.exports = { countSpecialSubsequences, countSpecialSubsequencesII };

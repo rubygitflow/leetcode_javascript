@@ -8,6 +8,25 @@ const Solution1443 = require("../collect_all_apples_in_tree");
 const Solution136_137 = require("../single_number");
 const Solution347_692 = require("../top_k_frequent_words");
 const Solution1957 = require("../delete_characters_to_make_fancy_string");
+const Solution1955 = require("../count_number_of_special_subsequences");
+
+
+// JavaScript-case only
+xit("Count Number of Special Subsequences (FOR-loop)", function(){
+  assert.strictEqual(Solution1955.countSpecialSubsequences([0,1,2]), 1)
+  assert.strictEqual(Solution1955.countSpecialSubsequences([0,1,2,0]), 1)
+  assert.strictEqual(Solution1955.countSpecialSubsequences([0,1,2,2]), 3)
+  assert.strictEqual(Solution1955.countSpecialSubsequences([2,2,0,0]), 0)
+  assert.strictEqual(Solution1955.countSpecialSubsequences([0,1,2,0,1,2]), 7)
+});
+
+it("Count Number of Special Subsequences (reduce)", function(){
+  assert.strictEqual(Solution1955.countSpecialSubsequencesII([0,1,2]), 1)
+  assert.strictEqual(Solution1955.countSpecialSubsequencesII([0,1,2,0]), 1)
+  assert.strictEqual(Solution1955.countSpecialSubsequencesII([0,1,2,2]), 3)
+  assert.strictEqual(Solution1955.countSpecialSubsequencesII([2,2,0,0]), 0)
+  assert.strictEqual(Solution1955.countSpecialSubsequencesII([0,1,2,0,1,2]), 7)
+});
 
 
 it("Delete Characters to Make Fancy String (FOR-loop)", function(){
@@ -42,20 +61,20 @@ it("Top K Frequent Elements", function(){
 });
 
 
-it("Single Number", function(){
+// JavaScript-case only
+xit("Single Number (FOR-loop)", function(){
   assert.strictEqual(Solution136_137.singleNumber([2,2,1,1,1]), 1)
   assert.strictEqual(Solution136_137.singleNumber([2,2,1]), 1)
   assert.strictEqual(Solution136_137.singleNumber([4,1,2,1,2]), 4)
   assert.strictEqual(Solution136_137.singleNumber([1]), 1)
 });
 
-// JavaScript-case only
-// it("Single Number III", function(){
-//   assert.strictEqual(Solution136_137.singleNumberIII([2,2,1,1,1]), 1)
-//   assert.strictEqual(Solution136_137.singleNumberIII([2,2,1]), 1)
-//   assert.strictEqual(Solution136_137.singleNumberIII([4,1,2,1,2]), 4)
-//   assert.strictEqual(Solution136_137.singleNumberIII([1]), 1)
-// });
+it("Single Number (reduce)", function(){
+  assert.strictEqual(Solution136_137.singleNumberIII([2,2,1,1,1]), 1)
+  assert.strictEqual(Solution136_137.singleNumberIII([2,2,1]), 1)
+  assert.strictEqual(Solution136_137.singleNumberIII([4,1,2,1,2]), 4)
+  assert.strictEqual(Solution136_137.singleNumberIII([1]), 1)
+});
 
 it("Single Number II", function(){
   assert.strictEqual(Solution136_137.singleNumberII([2,2,3,2]), 3)
