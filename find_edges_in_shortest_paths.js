@@ -24,7 +24,7 @@ var findAnswer = function(n, edges) {
     let dijkstra = (source) => {
         const dist = Array(n).fill(Infinity);
         dist[source] = 0;
-        const pq = new PriorityQueue((x, y) => {x[0] - y[0] });
+        const pq = new PriorityQueue((x, y) => {x[0] - y[0]});
         pq.enqueue([0, source]);
         while (pq.size()) {
             const [x, u] = pq.dequeue();

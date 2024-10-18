@@ -23,3 +23,5 @@ console.log(maxMatrixSum([[1,-1],[-1,1]]))
 // Output: 4
 console.log(maxMatrixSum([[1,2,3],[-1,-2,-3],[1,2,3]]))
 // Output: 16
+
+module.exports = { maxMatrixSum };

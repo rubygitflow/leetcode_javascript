@@ -36,3 +36,5 @@ console.log(checkMove(board, rMove, cMove, color));
 [board, rMove, cMove, color] = [[[".",".",".",".",".",".",".","."],[".","B",".",".","W",".",".","."],[".",".","W",".",".",".",".","."],[".",".",".","W","B",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".","B","W",".","."],[".",".",".",".",".",".","W","."],[".",".",".",".",".",".",".","B"]], 4, 4, "W"];
 console.log(checkMove(board, rMove, cMove, color));
 // Output: false
+
+module.exports = { checkMove };

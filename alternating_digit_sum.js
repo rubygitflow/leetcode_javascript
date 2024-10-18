@@ -28,6 +28,7 @@ console.log(alternateDigitSum(886995));
 // https://leetcode.com/problems/add-digits/description/
 // 258. Add Digits
 // Explanation: https://algo.monster/liteproblems/258
+//|HRD|
 
 /**
  * @param {number} num

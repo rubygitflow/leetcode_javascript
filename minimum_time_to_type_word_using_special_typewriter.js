@@ -17,9 +17,11 @@ var minTimeToType = function(word) {
   return seconds;
 };
 
-console.log(minTimeToType("abc"))
+console.log(minTimeToType("abc"));
 // Output: 5
-console.log(minTimeToType("bza"))
+console.log(minTimeToType("bza"));
 // Output: 7
-console.log(minTimeToType("zjpc"))
+console.log(minTimeToType("zjpc"));
 // Output: 34
+
+module.exports = { minTimeToType };

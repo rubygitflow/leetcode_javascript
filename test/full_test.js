@@ -4,11 +4,47 @@ const assert = require("assert");
 
 console.log = () => {};
 
+const {
+  add_linked_list
+} = require("../list_node");
+
 const Solution1443 = require("../collect_all_apples_in_tree");
 const Solution136_137 = require("../single_number");
 const Solution347_692 = require("../top_k_frequent_words");
 const Solution1957 = require("../delete_characters_to_make_fancy_string");
 const Solution1955 = require("../count_number_of_special_subsequences");
+const Solution1958 = require("../check_if_move_is_legal");
+const Solution1974 = require("../minimum_time_to_type_word_using_special_typewriter");
+const Solution1975 = require("../maximum_matrix_sum");
+const Solution23 = require("../merging_k_sorted_lists");
+
+// JavaScript-task only
+xit("Merge k Sorted Lists", function(){
+  assert.deepStrictEqual(Solution23.mergeKLists([add_linked_list([2,6]),add_linked_list([1,4,5]),add_linked_list([1,3,4])]).stringify(), '[1,1,2,3,4,4,5,6]')
+  assert.deepStrictEqual(Solution23.mergeKLists([]).stringify(), '[]')
+  assert.deepStrictEqual(Solution23.mergeKLists([add_linked_list([])]).stringify(), '[]')
+});
+
+
+it("Maximum Matrix Sum", function(){
+  assert.strictEqual(Solution1975.maxMatrixSum([[1,-1],[-1,1]]), 4)
+  assert.strictEqual(Solution1975.maxMatrixSum([[1,2,3],[-1,-2,-3],[1,2,3]]), 16)
+});
+
+
+it("Minimum Time to Type Word Using Special Typewriter", function(){
+  assert.strictEqual(Solution1974.minTimeToType("abc"), 5)
+  assert.strictEqual(Solution1974.minTimeToType("bza"), 7)
+  assert.strictEqual(Solution1974.minTimeToType("zjpc"), 34)
+});
+
+
+it("Check if Move is Legal", function(){
+  [board, rMove, cMove, color] = [[[".",".",".","B",".",".",".","."],[".",".",".","W",".",".",".","."],[".",".",".","W",".",".",".","."],[".",".",".","W",".",".",".","."],["W","B","B",".","W","W","W","B"],[".",".",".","B",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","W",".",".",".","."]], 4, 3, "B"];
+  assert(Solution1958.checkMove(board, rMove, cMove, color));
+  [board, rMove, cMove, color] = [[[".",".",".",".",".",".",".","."],[".","B",".",".","W",".",".","."],[".",".","W",".",".",".",".","."],[".",".",".","W","B",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".","B","W",".","."],[".",".",".",".",".",".","W","."],[".",".",".",".",".",".",".","B"]], 4, 4, "W"];
+  assert(!Solution1958.checkMove(board, rMove, cMove, color));
+});
 
 
 // JavaScript-case only
