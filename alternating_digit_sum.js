@@ -49,3 +49,5 @@ console.log(addDigits(886995));
 // Output: 9
 console.log(addDigits(1));
 // Output: 1
+
+module.exports = { alternateDigitSum, addDigits };

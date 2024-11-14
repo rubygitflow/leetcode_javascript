@@ -203,3 +203,5 @@ console.log(maxProfitAfterFee([1,3,7,5,10,3], 3))
 // Output: 6
 console.log(maxProfitAfterFee([8,9,7,6,8,8], 2))
 // Output: 0
+
+module.exports = { maxProfit, maxProfitII, maxProfitIII, maxProfitIV, maxProfitWithHold, maxProfitAfterFee };

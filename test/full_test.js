@@ -17,6 +17,72 @@ const Solution1958 = require("../check_if_move_is_legal");
 const Solution1974 = require("../minimum_time_to_type_word_using_special_typewriter");
 const Solution1975 = require("../maximum_matrix_sum");
 const Solution23 = require("../merging_k_sorted_lists");
+const Solution870 = require("../advantage_shuffle");
+const Solution258_2544 = require("../alternating_digit_sum");
+const Solution121_122_123_188_309_714 = require("../best_time_to_buy_and_sell_stock");
+
+
+it("Best Time to Buy and Sell Stock", function(){
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfit([7,1,5,3,6,4]), 5)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfit([7,6,4,3,1]), 0)
+});
+
+it("Best Time to Buy and Sell Stock II", function(){
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitII([7,1,5,3,6,4]), 7)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitII([1,2,3,4,5]), 4)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitII([7,6,4,3,1]), 0)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitII([7]), 0)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitII([]), 0)
+});
+
+it("Best Time to Buy and Sell Stock III", function(){
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitIII([3,3,5,0,0,3,1,4]), 6)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitIII([1,2,3,4,5]), 4)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitIII([7,6,4,3,1]), 0)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitIII([7]), 0)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitIII([]), 0)
+});
+
+it("Best Time to Buy and Sell Stock IV", function(){
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitIV(2, [2,4,1]), 2)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitIV(2, [3,2,6,7,5,0,3]), 8)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitIV(2, [3,2,6,5,0,3]), 7)
+});
+
+it("Best Time to Buy and Sell Stock with Cooldown", function(){
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitWithHold([1,2,3,0,2]), 3)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitWithHold([1]), 0)
+});
+
+it("Best Time to Buy and Sell Stock with Transaction Fee", function(){
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitAfterFee([1,3,2,8,4,9], 2), 8)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitAfterFee([1,3,7,5,10,3], 3), 6)
+  assert.strictEqual(Solution121_122_123_188_309_714.maxProfitAfterFee([8,9,7,6,8,8], 2), 0)
+});
+
+
+it("Add Digits", function(){
+  assert.strictEqual(Solution258_2544.addDigits(38), 2)
+  assert.strictEqual(Solution258_2544.addDigits(0), 0)
+  assert.strictEqual(Solution258_2544.addDigits(886995), 9)
+  assert.strictEqual(Solution258_2544.addDigits(1), 1)
+});
+
+it("Alternating Digit Sum", function(){
+  assert.strictEqual(Solution258_2544.alternateDigitSum(521), 4)
+  assert.strictEqual(Solution258_2544.alternateDigitSum(111), 1)
+  assert.strictEqual(Solution258_2544.alternateDigitSum(886996), 0)
+  assert.strictEqual(Solution258_2544.alternateDigitSum(885996), -1)
+  assert.strictEqual(Solution258_2544.alternateDigitSum(886995), 1)
+});
+
+
+it("Advantage Shuffle", function(){
+  assert.deepStrictEqual(Solution870.advantageCount([2,7,11,15], [1,10,4,11]), [2,11,7,15])
+  assert.deepStrictEqual(Solution870.advantageCount([12,24,8,32], [13,25,32,11]), [24,32,8,12])
+  assert.deepStrictEqual(Solution870.advantageCount([12,24,8], [13,25,32,11]), [])
+});
+
 
 // JavaScript-task only
 xit("Merge k Sorted Lists", function(){
